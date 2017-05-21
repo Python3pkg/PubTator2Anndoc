@@ -1,4 +1,4 @@
-from pubtator import PubTator2Anndoc
+from .pubtator import PubTator2Anndoc
 
 # Define entity classes here
 entity_classes = {'Gene': 'e_1', 'FamilyName': 'e_2', 'DomainMotif': 'e_3', 'Species': 'e_4'}
